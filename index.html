@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="screen.css">
+</head>
+<body>
+
+  <div class="top">
+      <ul class="name">
+        <li><input id="content"  placeholder="Username" type="text" class="int" required/></li>
+        <li><input id="but" type="submit" value="Search" class="inp disabled"/></li>
+      </ul>
+  </div>
+
+  <div id="placeholder"></div>
+
+
+
+  <main>
+      <ul id="gallery-items" class="container"></ul>
+  </main>
+
+  <script id="personTemplate" type="text/template">
+    <figure class="person">
+      <img />
+    <figcaption>
+      <h3 class="heading"></h3>
+      <p></p>
+      <p class="numeral"></p>
+      <p class="new"></p>
+    </figcaption>
+    </figure>
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+  <script src="apper.js"></script>
+</body>
+</html>
